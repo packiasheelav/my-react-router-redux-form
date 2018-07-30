@@ -9,6 +9,10 @@ body {
     font-family: sans-serif;
     line-height: 2.5em;
 }
+.home{
+    text-align:center;
+    color:white;
+}
 
 #heading {
     margin-top: 30px;

@@ -49,7 +49,7 @@ const Portfolio = props => {
       <input type="submit" name="submit" value="Submit" id="submit" />
       </div>
       <div>
-     <NavLink exact activeStyle ={{color:'orange'}} to="/Skills&Location">Previous</NavLink>
+     <NavLink exact activeStyle ={{color:'orange'}} to="/Skills and Location">Previous</NavLink>
      <NavLink exact activeStyle ={{color:'orange'}} to="/Home">Next</NavLink>
      </div>
     </form>

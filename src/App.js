@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./component/Style.css";
-import FooterComponent from "./component/FooterComponent";
 import NavBarComponent from "./component/NavBarComponent";
 import Header from "./component/HeaderComponent";
 
@@ -130,7 +129,6 @@ class App extends Component {
         <Header />
         <NavBarComponent data={this.state} change={this.handleUpdate} validate={errors} handleBlurEvent={this.handleChange} handleCheckBox={this.handleCheck} handleSubmit={this.handleLoginSubmit} displayMessage={this.displayMessage}/>
         
-        <FooterComponent />
       </div>
       
     );
